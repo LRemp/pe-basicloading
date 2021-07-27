@@ -126,7 +126,6 @@ const startBackgroundInterval = () => {
 window.addEventListener('DOMContentLoaded', () => {
   startBackgroundInterval()
   setRandomTip()
-  spinnerEl.fadeIn()
   startMusic()
 })
 
